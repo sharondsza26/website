@@ -1,0 +1,43 @@
+<html>
+        <body>
+                <h1 style="background-color:rgb(120, 206, 240);" 
+                
+                <h1><i>Tip calculator</i></h1>
+                <h2 style="background-color:rgb(120, 206, 240);" >
+                <p id="demo"></p>
+                
+                <form action="javascript:myFunction(amount.value , type.value)">
+                    Amount:<br>
+                    <input type="number" name="amount" id=amount value="100">
+                    <br>
+                    Service:<br>
+                    <select name="service" id=type  >
+                            <option value="bad">Bad</option>
+                            <option value="good">Good</option>
+                            <option value="great">Great</option>
+                          </select>
+                    <br><br>
+                    <input type="Submit" value="calculate">
+                  </form> 
+
+                  <script type="text/javascript">
+                      function myFunction(amount,service) {
+                          
+                        switch (service) {
+                          case "bad":
+                            tip= 0.1*amount;
+                            break;
+                          case "good":
+                            tip= 0.15*amount;
+                            break;
+                          case "great":
+                            tip=0.2*amount;
+                            break;
+                        }
+                        alert("your tip is " + tip);
+                    }
+                        </script></h2>
+                
+                    </h1> 
+                    </body>
+</html>
