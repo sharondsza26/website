@@ -5,16 +5,19 @@ body{
      background-position: center;
      background-size:cover;
  }
- .navBar{
+ .navbar{
+    background-color:#edf5f3;
+ }
+ /* .navBar{
      display:flex;
      justify-content:flex-end;
      font-family: Arial;
      position:fixed;
      background-color:#edf5f3;	/*lightblue;*/
-     top:5px;
+     /* top:5px;
      padding:10px;
- }
- .navBar :hover{
+ } */ 
+ .navbar :hover{
      opacity:0.7;
  }
  .name{
@@ -26,13 +29,13 @@ body{
      padding:10px;
      border:none;
  }
- .initial{
+ /* .initial{
      color:lightgrey;
      margin-top:65px;
      margin-left:10px;
      margin-right:10px;
      border:solid 1px;
- }
+ } */
  .divider{
      color:lightgrey;
      margin:10px;
@@ -62,25 +65,27 @@ body{
  .quote{
      background-color:#fcfcfc;
      float:right;
+     /* position: relative; */
      text-align: center;
      text-shadow: #5793de 0px 0px 1px;
      width:400px;
      margin-top:110px;
      border-radius:15px;
+     border: solid black 1px;
  }
  .homePictureDiv{
      width:600px;
      height:450px;
-     margin-left:300px;
-     margin-top:-200px;
+     /* margin-left:300px; */
+     margin-top:-100px;
      padding:5px;
-     border:solid black 1px;
+     /* border:solid black 1px; */
  }
  .homePicture{
      position:absolute;
      width:600px;
      height:450px;
-     z-index:-2;
+     z-index:-1;
  }
  .title{
      font-family: 'Sacramento', cursive;
@@ -88,11 +93,12 @@ body{
      color: black;
      text-align:center;
      text-shadow:white 1px 1px;
-     margin:30px;
+     margin:10px;
  }
  .about{
      background-color:#fcfcfc;
      font-family: 'Abel', sans-serif;
+     font-size: large;
      text-align:center;
      margin:30px;
      padding:30px;
@@ -105,7 +111,7 @@ body{
      background-color:#fcfcfc;
      font-family: 'Abel', sans-serif;
      width:400px;
-     height:100px;
+     height:150px;
      margin-left:150px;
      margin-top:100px;
      padding:10px;
@@ -117,7 +123,7 @@ body{
      margin-left:500px;
      margin-top:-200px;
      padding:5px;
-     z-index:-1;
+     /* z-index:-1; */
  }
  .projectPicture{
      position:absolute;
@@ -137,14 +143,6 @@ body{
      margin:50px;
      padding:10px;
  }
- .scrollArt{
-     background-color:#fcfcfc;
-     display: block;
-     height:160px;
-     margin:10px;
-     padding:10px;
-     border:solid grey 2px;
- }
  .blockArt{
      display: flex;
      justify-content: center;
@@ -154,8 +152,8 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
-     height:220px;
-     width:220px;
+     height:270px;
+     width:320px;
      margin:20px;
      border:solid grey 2px;
  }
