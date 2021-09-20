@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+        <title>Sharon Dsouza</title>
+        
+        <link rel="stylesheet" type="text/css" href="websd.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+        <!---NAVIGATION BAR SECTION-->
+        <!--<div class="navBar" id="navbar">-->
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-right">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link active" href="#homeSection">SHARON</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="#aboutSection">ABOUT</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="#projectSection">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="#artSection">ART</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="#contactSection">CONTACT</a>
+             </li>
+             <li class="nav-item">
+             <a class="nav-link active" href="Sharon_Dsouza_CS_Resume_2021.pdf">RESUME</a>
+            </li>
+            </ul>
+            </nav>
+        <!--</div>-->
+        <div class="divider"> </div>
+        
+        <!--HOME PAGE-->
+        
+        <div class="home" id="homeSection">
+            <!--<div class="intro">
+                <p>Hi my name is,</p></div>
+                <div><h2 class="sd">Sharon Dsouza.</h2>
+            </div>-->
+                <div class="quote"> 
+                    <h3><em>{ Turning Coffee to Code } </em></h3>
+                </div>
+            	<div class="homePictureDiv mx-auto d-block">
+                    <img class="homePicture img-thumbnail" src="prof4.jpg">
+                    
+                   <!-- "https://c0.wallpaperflare.com/preview/107/714/504/interior-office-workspace-computer-thumbnail.jpg">-->
+                
+                </div>
+            </div>
+        <div class="divider"> </div>
+         
+        <!--ABOUT SECTION-->
+        <p class="title" id="aboutSection">About Me</p>
+        <div class="divider"> </div>
+        
+        <div class="about">
+                <h4>Hi my name is, Sharon Dsouza.</h4>
+                <p>I'm from Mumbai, India. Currently a Computer Science graduate, from St. Francis Institue of Technology under the University of Mumbai.
+                My areas of academic interests range over Data Sciences and Web Designing. My proficiency in technical languages is Python, Java, JavaScript, CSS, HTML, PHP, Git. I've worked 
+                with frameworks such as SpringBoot, Flask, and Bootstrap4.
+                I'm always looking for new concepts to learn and new ways to improve. During the corse of my academics, apart from the classroom I was part of many cultural committees
+                that helped me develop a number of soft skills. In my second year I was part of my IEEE Student Branch workforce, in my Third Year I was given the responsibilty to lead
+                my IEEE student branch in the capacity of a General Secretary which helped me coordinate tasks between various sub-committees as well as intra-committees. It gave me the opportunity
+                to conduct workshops in order to make relevant industry skills known as well as taught to students, not only in my college but students from colleges all over Mumbai were able to attend.
+                I was also part of the Women in IEEE committee and conducted the Orientation Program for the Freshers. I was part of the Marketing committee for my college's culural fest Iris. This helped me develop interpersonal skills and gave me the confidence 
+                to be more vocal about my opinions as well as work with a team made up of my peers.</p>
+                <p>In my Third Year of Engineering, I interned at McSun Design Studio as a Software Intern for a period of four months. During the course of the internship my responsibilities included a full revamp of the company website. 
+                I Redesigned the layout to reflect a more modern aesthetic with a new homepage layout, added animations, social media links and icons, “INTERIORS” category section.
+                Also, maintained functionality and fixed reported errors on the (interior design) website using PHP, HTML and CSS. Being a part of this company taught me what being a part of a team really meant.
+                Even though I was one of the youngest employees, I always had a platform to share my ideas and have discussions as an equally valuable member of the team.</p>
+        </div>
+        <div class="divider"> </div>
+        
+        <!--PROJECTS SECTION-->
+        <p class="title" id="projectSection">My Projects</p>
+        <div class="divider"> </div>
+        
+        <div class="projects"> 
+            <div class="projectsDescription">
+                <p id="projDescript">Java-Mini Music Player : This simulation of a music player displays graphics simultaneously with the sound of music. Makes use of conepts in AWT, Swing, Sound, EventListener, MidiEvent, sequencer, etc.</p>
+             </div>
+             <div class="projectPictureDiv float-right">
+                <img class="projectPicture img-thumbnail" id="projPic"  src="proj1.png">
+            </div>
+            
+            <div class="projectNames row"> 
+                <div class="col button">
+                <button class="btn" onclick=changeImageAndText1()> Project1 </button></div>
+                <div class="col button"> 
+                <button class="btn" onclick=changeImageAndText2()> Project2 </button></div>
+                <div class="col button"> 
+                <button class="btn" onclick=changeImageAndText3()> Project3 </button></div>
+            </div>
+        </div>
+        
+        <div class="divider"> </div>
+        
+        <!--ART SECTION-->
+        <p class="title" id="artSection">Being an Artist off-screen 
+        <a href="https://www.instagram.com/_art_fanatic/"><i class=" title fa fa-instagram" style="font-size:25px"></i><a></p>
+        <div class="divider"> </div>
+            <div class="blockArt row">
+                <div class="col">
+                <img class="box" src="art1.jpg">
+                </div>
+                <div class="col">
+                <img class="box" src="art5.jpg">
+                </div>
+                <div class="col">
+                <img class="box" src="art4.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="divider"> </div>
+        
+        <!--CONTACT SECTION-->
+        <div class="contact">
+        <p class="title" id="contactSection">Get in touch!<br>
+        <a href="https://www.instagram.com/shaz___13/"><i class="title fa fa-instagram" style="font-size:30px"></i></a>
+        <a href="mailto:sharondsouza26@gmail.com"><i class="title fa fa-google" style="font-size:30px"></i></a>
+        <a href="https://github.com/sharondsza26"><i class="title fa fa-github-square" style="font-size:30px"></i></a>
+        <a href="https://www.linkedin.com/in/sharon-dsouza-4480991b5/"><i class="title fa fa-linkedin-square" style="font-size:30px"></i></a>
+        </p>
+        </div>
+
+        <div class="divider"> </div>
+        
+        <footer>Built & Designed by Sharon Dsouza.</footer>
+
+        <script src="websd.js"> </script>
+        </div>
+    </body>
+</html>
